@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background:linear-gradient(grey,white);
+}
+input{
+    background: transparent;
+    color:white;
+    border-style: none;
+    width:30%;
+    height:5%;
+    border-bottom: solid;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+button{
+  width:20%;
+  height:5%;
+  background-color: lightgreen;
+  font-size: x-large;
+  border:none;
+  border-radius: 20px;
+  animation:reverse;
+}
+button:hover{
+  color:white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
